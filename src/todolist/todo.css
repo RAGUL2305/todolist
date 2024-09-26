@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.head {
+  font-size: 90px;
+  font-weight: 100;
+  color: brown;
+}
+
+.inputbox {
+  width: 590px;
+  height: 50px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.inputbox:focus{
+  outline:2px solid brown;
+  border: none;
+}
+
+.initialbackground {
+  background-color: white;
+  width: 600px;
+  height: min-content;
+  border-width: 40px;
+  margin: 55px;
+}
+
+.clearbutton {
+  position: absolute;
+  right: 430px;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+
+.clearbutton:hover {
+  color: brown;
+}
+
+.tbl {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.tbl button {
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: white;
+}
+
+button:hover {
+  border-color: brown;
+}
+
+.checkbox-round {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 900px;
+  vertical-align: middle;
+  border: 2px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.checkbox-round:checked {
+  appearance: auto;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.list-container {
+  list-style: none;
+  border-bottom: 1px #ddd;
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+}
+
+.list-name {
+  margin-left: 10px;
+}
